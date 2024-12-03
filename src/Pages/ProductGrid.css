@@ -1,0 +1,12 @@
+.product-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 20px;
+}
+
+.product-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}

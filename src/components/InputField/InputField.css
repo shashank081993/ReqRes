@@ -1,0 +1,36 @@
+/* Input Field Container */
+.input-field {
+  margin-bottom: 15px;
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Label Styling */
+.input-label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Input Box Styling */
+.input-box {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* Input Box Hover and Focus Effect */
+.input-box:focus {
+  border-color: #007bff;
+  outline: none;
+}
+inpudiv {
+  flex-direction: column;
+  gap: 10px;
+}

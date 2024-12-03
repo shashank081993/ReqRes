@@ -1,0 +1,13 @@
+.nav-bar {
+  background-color: rgba(5, 110, 61, 0.181);
+  display: flex;
+  justify-content: space-between;
+  max-height: 150px;
+  align-items: center;
+  border-radius: 10px;
+}
+img {
+  max-height: 35px;
+  max-width: 35px;
+  border-radius: 15px;
+}
