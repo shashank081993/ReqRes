@@ -21,9 +21,10 @@ const ViewCartReducer = (state = initialState, action) => {
 
     case "DELETE-ITEM": {
       const filteredCart = state.cart.filter(
-        (item) => item.id !== action.payload.id
+        (item) => item.pid !== action.payload.id
       );
-      console.log("filtered" + filteredCart);
+      console.log("filtered");
+      console.log(filteredCart);
       return {
         ...state,
         cart: filteredCart,
